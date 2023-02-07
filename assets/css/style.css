@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'GildaDisplay';
+    src: url('../fonts/GildaDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MavenPro-Regular';
+    src: url('../fonts/MavenPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MavenPro-SemiBold';
+    src: url('../fonts/MavenPro-SemiBold.ttf');
+}
+
+/* Header */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #2C2C2C;
+}
+
+header h1{
+    font-family: 'MavenPro-Regular';
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    width: 40px;
+    padding: 10px 0 0 20px
+}
+
+header article{
+    background: linear-gradient(45deg,#8507e1,#8507e1, #194894 ,#3dc8d5,#3dc8d5);
+    width: 240px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    padding: 0 5px 10px 5px;
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+
+header article:hover{
+    background: linear-gradient(45deg,#3dc8d5, #194894, #8507e1);
+}
+
+header article h2{
+    font-family: 'GildaDisplay';
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+header article p{
+    font-family: 'MavenPro-Regular';
+
+}
+
+header nav{
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 38px;
+}
+
+header nav ul li{
+    padding-bottom: 10px;
+}
+
+header nav ul li a{
+    font-family: 'MavenPro-Regular';
+    color: #cccccc;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/* Main*/
+
+main article {
+text-align: left;
+margin-right: auto;
+padding-left: 100px;
+margin-top: 150px;
+}
+
+main article h1{
+font-family: 'MavenPro-SemiBold';
+    font-size: 170px;
+    opacity: 0.03;
+    line-height: 105px;
+
+}
+
+main article h2{
+    font-size: 70px;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    
+}
+
+main article p{
+    width: 450px;
+    font-family: 'MavenPro-Regular';
+    line-height: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+main section{
+
+    margin-top: 130px;
+}
+.main_pics{
+margin-bottom: 200px;
+}
+.main_pics div {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.main_pics img{
+    display: block;
+    width: 70vw;
+    border-radius: 10px;
+    margin: 250px auto 40px auto;
+}
+
+.main_pics h3{
+    font-size: 50px;
+    margin-bottom: 15px;
+
+}
+
+.main_pics h4{
+    font-family: 'MavenPro-Regular';
+    text-transform: uppercase;
+}
